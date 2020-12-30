@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas</title>
+            <style>
+                table{
+
+                
+                    width:50%;
+                    border:2px  solid rgb(41,136,180)
+                }
+                th,td{
+                    padding:15px;
+                    border:1px solid black;   /*agregar un bprde solido de color negro*/
+                    text-align: center;   /*centrar el texto */
+                      }
+                    
+                #encabezado{
+                    background-color: beige;
+                    color:red;
+                }
+                .fila2{
+                    background-color: coral;
+                    color:white;
+                       }
+            </style>
+            
+</head>
+<body>
+    <table     cellpadding="5px"   cellspacing="5px"> 
+        <tr style="background-color: blue"> <!--filas table raw-->
+            <th colspan="2">Firstname</th> <!--Atributo collspan para extender las columnas-->
+            <th>Age</th> <!--Encabezado de la tabla-->
+        </tr>
+            <tr>
+                <td>Jill</td> <!--Datos de la Tabla-->
+                <td>Smith</td>
+                <td rowspan="2">50</td> <!--Atributo rowspan para extender las filas-->
+            </tr>
+                <tr>
+                    <td>Evec</td>
+                    <td>Jackson</td>
+                   
+                </tr>
+                <tr>
+                    <td>Esther</td>
+                    <td>Trejo</td>
+                    <td>27</td>
+                </tr>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+    <h1>Formularios</h1>
+    <form action="#" method="G">
+    <label for="Nombre">Nombre</label>
+    <input type="text" name="Nombre" id="nombre">
+    <label for="fecha de nacimiento">fecha de nacimiento</label>
+    <input type="date" name="fecha-nac" id="fecha-nac">
+    <label for="correo">Correo Electronico</label>
+    <input type="email" name="correo" id="correo">
+    <label for="contraseña">Contraseña</label>
+    <!-- Imput Tipo de contraeña--->
+    <input type="password" name="contraseña" id="contraseña">
+    <label for="edad">Edad</label>
+    <!---typo de numero-->
+    <input type="number" name="edad" id="edad">
+    <label for="descripcion">descripcion</label>
+    <textarea name="descripcion" id="descripcion" cols="30" rows="5"></textarea>
+    <label for="estado">Estado</label>
+    <select name="estado" id="estado">
+        <option value=""></option>seleccione su estado</option>
+        <option value="San Luis Potosi">San Luis Potosi</option>
+        <option value="Monterrey">Monterrey</option>
+        <option value="Guadalajara">Guadalajara</option>   
+         </select>
+         <label for="color">Color Favorito</label>
+         <input type="color" name="color-fav" id="color-fav">
+         <label for="servicios">servicios</label>
+         <div>
+         <input type="checkbox" name="servicios[]" id="servicio1" value="agua">
+         <label for="servicio1">agua</label>
+         <input type="checkbox"name="servicios[]" id="servicio2" value="Luz">
+         <label for="servicio2">Luz</label>
+        </div>
+        <label for="genero">genero</label>
+        <div>
+            <input type="radio" name="genero" id="femenino" value="M">
+            <label for="femenino">femenino</label>
+            <input type="radio" name="genero" id="masculino" value="F">
+            <label for="masculino">femenino</label>
+        </div>
+         <input type="submit" value="Enviar">
+    </form>
+    </div>
+
+    
+</body>
+</html>

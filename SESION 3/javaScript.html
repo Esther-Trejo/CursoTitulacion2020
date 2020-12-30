@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <form class="opciones" name="formulario" onsubmit="return suma()">
+        <label form="num1">Primer Numero</label>
+        <input type="number" id="num1" name="num1">
+        <label form="num2">Segundo Numero</label>
+        <input type="number" id="num2" name="num2">
+        <br>
+        <button type="submit">Calcular</button>
+       
+
+    </form>
+    <hr>
+    <br>
+    <div class="calculadora">
+        <label form="valor1">Primer Valor</label>
+        <input type="number" id="valor1" name="valor1">
+        <label form="valor2">Segundo valor</label>
+        <input type="number" id="valor2" name="valor2">  
+        <label for="operacion">Operacion</label>
+        <select name="op" id="operacion">
+            <option value="">selecione una opcion</option>
+            <option value="sum">suma</option>
+            <option value="res">resta</option>
+            <option value="mul">multiplicacion</option>
+            <option value="div">Division</option>
+        </select>
+            <br>
+        <p id="resultado"></p>
+        <button onclick="calculadora()">Calcular</button>
+
+          
+    </div>
+    <script src="script.js"></script>
+
+    <div class="contenido">
+       <br> 
+       <br>
+       <br> 
+       <br>
+<button onclick="alert('hola a todos')">Mostrar Mensaje</button>
+    </div>
+    
+</body>
+</html>
